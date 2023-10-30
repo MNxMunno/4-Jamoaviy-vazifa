@@ -339,7 +339,7 @@ header nav .nav-btn .logo-2 {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   header nav .logo {
     display: none;
   }
