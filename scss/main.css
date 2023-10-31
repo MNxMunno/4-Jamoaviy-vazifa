@@ -417,6 +417,11 @@ header nav .nav-btn .logo-2 {
   background: var(--Yellow, #ffc000);
   padding: 9px 90px;
   margin-top: 10px;
+  border: 2px solid #ffc000;
+}
+.post .frist_ustun button:hover {
+  background-color: transparent;
+  transition: 0.4s;
 }
 .post .second_ustun label {
   display: block;
