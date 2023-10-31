@@ -9,6 +9,7 @@
   padding-bottom: 72px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   .frist_ustun {
     button {
       color: var(--Black, #0d0d0d);
@@ -97,4 +98,15 @@
 }
 
 @media only screen and (max-width: 380px) {
+  .post {
+    .second_ustun {
+      padding-top: 24px;
+      input {
+        width: 313px;
+      }
+    }
+    .ustun_3 {
+      padding-top: 32px;
+    }
+  }
 }

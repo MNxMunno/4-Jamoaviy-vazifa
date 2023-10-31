@@ -403,6 +403,7 @@ header nav .nav-btn .logo-2 {
   padding-bottom: 72px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .post .frist_ustun button {
   color: var(--Black, #0d0d0d);
@@ -502,6 +503,17 @@ header nav .nav-btn .logo-2 {
   line-height: 24px; /* 150% */
 }
 
+@media only screen and (max-width: 380px) {
+  .post .second_ustun {
+    padding-top: 24px;
+  }
+  .post .second_ustun input {
+    width: 313px;
+  }
+  .post .ustun_3 {
+    padding-top: 32px;
+  }
+}
 .only {
   background-color: #fafafa;
 }
