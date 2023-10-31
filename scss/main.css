@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap");
 footer {
   padding: 46px 0 42px;
@@ -387,6 +388,120 @@ header nav .nav-btn .logo-2 {
   }
 }
 
+.desktop-1_hero .desk-1__hero p {
+  padding-top: 150px;
+  color: red;
+  font-size: 48px;
+}
+
+.yagona {
+  background-color: #fafafa;
+}
+
+.post {
+  padding-top: 80px;
+  padding-bottom: 72px;
+  display: flex;
+  justify-content: space-around;
+}
+.post .frist_ustun button {
+  color: var(--Black, #0d0d0d);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+  border-radius: 6px;
+  background: var(--Yellow, #ffc000);
+  padding: 9px 90px;
+  margin-top: 10px;
+}
+.post .second_ustun label {
+  display: block;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  padding-bottom: 8px;
+}
+.post .second_ustun input {
+  width: 264px;
+  height: 44px;
+  padding-left: 12px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #dbdee7;
+  display: block;
+}
+.post .second_ustun input::-moz-placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.post .second_ustun input::placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.post .second_ustun a {
+  color: #ffc000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 12px;
+}
+.post .ustun_3 label {
+  display: block;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  padding-bottom: 8px;
+}
+.post .ustun_3 input {
+  width: 313px;
+  height: 44px;
+  padding-left: 12px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #dbdee7;
+  display: block;
+}
+.post .ustun_3 input::-moz-placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.post .ustun_3 input::placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
 .only {
   background-color: #fafafa;
 }
@@ -498,9 +613,6 @@ header nav .nav-btn .logo-2 {
 }
 
 @media only screen and (max-width: 380px) {
-  .only {
-    background-color: plum;
-  }
   .content {
     display: block;
   }
