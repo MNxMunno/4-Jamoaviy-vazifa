@@ -443,6 +443,7 @@ header nav .nav-btn .logo-2 {
   border-radius: 6px;
   border: 1px solid #dbdee7;
   display: block;
+  background-color: transparent;
 }
 .post .second_ustun input::-moz-placeholder {
   color: var(--Black, #0d0d0d);
@@ -488,6 +489,7 @@ header nav .nav-btn .logo-2 {
   border-radius: 6px;
   border: 1px solid #dbdee7;
   display: block;
+  background-color: transparent;
 }
 .post .ustun_3 input::-moz-placeholder {
   color: var(--Black, #0d0d0d);

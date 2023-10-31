@@ -51,6 +51,7 @@
       border-radius: 6px;
       border: 1px solid #dbdee7;
       display: block;
+      background-color: transparent;
       &::placeholder {
         color: var(--Black, #0d0d0d);
         font-variant-numeric: lining-nums proportional-nums;
@@ -89,6 +90,7 @@
       border-radius: 6px;
       border: 1px solid #dbdee7;
       display: block;
+      background-color: transparent;
       &::placeholder {
         color: var(--Black, #0d0d0d);
         font-variant-numeric: lining-nums proportional-nums;
