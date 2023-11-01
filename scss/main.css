@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap");
 footer {
   padding: 46px 0 42px;
 }
@@ -386,6 +388,7 @@ header nav .nav-btn .logo-2 {
   }
 }
 
+<<<<<<< HEAD
 .text-items {
   padding-top: 10px;
   padding-left: 15px;
@@ -575,6 +578,291 @@ svg {
   }
 }
 
+=======
+.desktop-1_hero .desk-1__hero p {
+  padding-top: 150px;
+  color: red;
+  font-size: 48px;
+}
+
+.yagona {
+  background-color: #fafafa;
+}
+
+.post {
+  padding-top: 80px;
+  padding-bottom: 72px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.post .frist_ustun button {
+  color: var(--Black, #0d0d0d);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+  border-radius: 6px;
+  background: var(--Yellow, #ffc000);
+  padding: 9px 90px;
+  margin-top: 10px;
+  border: 2px solid #ffc000;
+}
+.post .frist_ustun button:hover {
+  background-color: transparent;
+  transition: 0.4s;
+}
+.post .second_ustun label {
+  display: block;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  padding-bottom: 8px;
+}
+.post .second_ustun input {
+  width: 264px;
+  height: 44px;
+  padding-left: 12px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #dbdee7;
+  display: block;
+  background-color: transparent;
+}
+.post .second_ustun input::-moz-placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.post .second_ustun input::placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.post .second_ustun a {
+  color: #ffc000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 12px;
+}
+.post .ustun_3 label {
+  display: block;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  padding-bottom: 8px;
+}
+.post .ustun_3 input {
+  width: 313px;
+  height: 44px;
+  padding-left: 12px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #dbdee7;
+  display: block;
+  background-color: transparent;
+}
+.post .ustun_3 input::-moz-placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.post .ustun_3 input::placeholder {
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+@media only screen and (max-width: 380px) {
+  .post .second_ustun {
+    padding-top: 24px;
+  }
+  .post .second_ustun input {
+    width: 313px;
+  }
+  .post .ustun_3 {
+    padding-top: 32px;
+  }
+}
+.only {
+  background-color: #fafafa;
+}
+
+.content {
+  padding-top: 10%;
+  padding-bottom: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content .texts {
+  max-width: 48%;
+}
+.content .texts h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 64px; /* 139.13% */
+  padding-bottom: 16%;
+  max-width: 490px;
+}
+.content .texts .number,
+.content .texts .address {
+  padding-bottom: 80px;
+}
+.content .texts .number h2,
+.content .texts .address h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 170% */
+  padding-bottom: 8px;
+}
+.content .texts .number p,
+.content .texts .address p {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.content .inputs {
+  max-width: 48%;
+}
+.content .inputs input {
+  width: 95%;
+  height: 60px;
+  padding-left: 24px;
+  margin-bottom: 16px;
+  outline: none;
+  border: 1px solid #dbdee7;
+  background-color: transparent;
+  font-size: 18px;
+}
+.content .inputs input::-moz-placeholder {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+}
+.content .inputs input::placeholder {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+}
+.content .inputs textarea {
+  width: 95%;
+  display: block;
+  resize: none;
+  outline: none;
+  border: 1px solid #dbdee7;
+  padding: 12px 0px 0px 24px;
+  background-color: transparent;
+  font-size: 18px;
+}
+.content .inputs textarea::-moz-placeholder {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+}
+.content .inputs textarea::placeholder {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+}
+.content .inputs button {
+  color: var(--Black, #0d0d0d);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 170% */
+  border-radius: 6px;
+  background: var(--Yellow, #ffc000);
+  padding: 13px;
+  width: 236.282px;
+  margin-top: 36px;
+  border: 2px solid #ffc000;
+}
+.content .inputs button:hover {
+  background-color: transparent;
+  transition: 0.4s;
+}
+
+@media only screen and (max-width: 380px) {
+  .content {
+    display: block;
+  }
+  .content .texts h1 {
+    width: 316px;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130%; /* 44.2px */
+    padding-bottom: 50px;
+  }
+  .content .texts .malumot {
+    display: flex;
+    gap: 24px;
+  }
+  .content .texts .malumot .number,
+  .content .texts .malumot .address {
+    padding-bottom: 50px;
+  }
+  .content .texts .malumot .number p,
+  .content .texts .malumot .address p {
+    width: 160px;
+    display: flex;
+    flex-wrap: nowrap;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+  }
+  .content .inputs input {
+    width: 210%;
+  }
+  .content .inputs textarea {
+    width: 210%;
+  }
+  .content .inputs button {
+    width: 210%;
+  }
+}
+>>>>>>> b647087b8c389a28987bf05ab3311ad311cefc8e
 @font-face {
   font-family: Montserrat;
   src: url(../../fonts/Montserrat-Regular.ttf);
