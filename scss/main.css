@@ -386,6 +386,195 @@ header nav .nav-btn .logo-2 {
   }
 }
 
+.text-items {
+  padding-top: 10px;
+  padding-left: 15px;
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.1px;
+}
+
+.button {
+  padding-left: 350px;
+  padding-top: -10px;
+}
+
+.text-item-b {
+  display: inline-flex;
+  padding: 4px 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--Yellow, #FFC000);
+  border-color: #FFC000;
+}
+
+.text-itemb {
+  display: inline-flex;
+  padding: 4px 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border-color: #FFC000;
+}
+
+.text-item-b:hover:not(.active) {
+  background: #FAFAFA;
+}
+
+.text-itemb:hover:not(.active) {
+  background: var(--Yellow, #FFC000);
+}
+
+svg {
+  padding-top: 5px;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.text1 {
+  padding-top: 25px;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.1px;
+}
+
+.text-image {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-image .dropdownn .a1 {
+  text-decoration: none;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Gotham Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 106.667% */
+  padding-right: 250px;
+}
+.text-image .dropdownn svg {
+  padding-top: 20px;
+  padding-left: 15px;
+  width: 30;
+  height: 30;
+}
+.text-image .dropdownn .dropbtn {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border-bottom: 5px;
+  border-color: #000;
+}
+.text-image .dropdownn .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.text-image .dropdownn .dropdown-content a {
+  color: black;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  border-radius: 4px;
+}
+.text-image .dropdownn .dropdown-content a:hover {
+  background-color: #ffffff;
+}
+.text-image .dropdownn .dropdown:hover .dropdown-content {
+  display: block;
+}
+.text-image .images {
+  padding-top: 25px;
+  gap: 50px;
+}
+.text-image .blok1 {
+  padding-left: 25px;
+}
+.text-image .blok1 .imgm {
+  padding-right: 20px;
+}
+.text-image .blok1 .bp11 {
+  display: flex;
+  color: var(--Black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.75px;
+}
+.text-image .blok1 .bp11 .yulduz {
+  display: flex;
+  display: flex;
+}
+.text-image .blok1 .bp11 .yulduz .foiz {
+  display: flex;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.1px;
+}
+.text-image .blok1 .bp11 .yulduz .narxi {
+  color: var(--Black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 14px */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.text-image .blok1 .bp11 .yulduz .yulduzcha {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 500px) {
+  .text-image .text-image {
+    display: block;
+  }
+  .text-image .text-image .images {
+    padding-left: 60000000px;
+  }
+  .text-image .text-image .images .imgm {
+    font-size: 20px;
+  }
+  .text-image .dropdownn {
+    display: flex;
+    gap: 15px;
+  }
+  .text-image .dropdownn .a1 {
+    padding-right: 35px;
+  }
+  .text-image .dropdownn svg {
+    display: none;
+  }
+}
+
 @font-face {
   font-family: Montserrat;
   src: url(../../fonts/Montserrat-Regular.ttf);
