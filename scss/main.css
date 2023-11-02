@@ -1289,8 +1289,8 @@ main {
     gap: 48px;
   }
   .order-hero .o-left .pricing-area .payment-methods svg {
-    width: 206px;
-    height: 56px;
+    width: 180px;
+    height: 36px;
   }
   .order-hero .o-left .pricing-area .payment-methods svg:hover {
     cursor: pointer;
@@ -2815,18 +2815,6 @@ a {
 
 .dark {
   background-color: #181717;
-}
-
-.dark h6 {
-  color: #fff !important;
-}
-
-.dark p {
-  color: #fff !important;
-}
-
-.dark a {
-  color: #acabab !important;
 }
 
 button {
