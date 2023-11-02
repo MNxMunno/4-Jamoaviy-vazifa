@@ -1931,6 +1931,46 @@ svg {
   transition: 0.4s;
 }
 
+@media only screen and (max-width: 4300px) {
+  .content {
+    display: block;
+  }
+  .content .texts h1 {
+    width: 316px;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130%; /* 44.2px */
+    padding-bottom: 50px;
+  }
+  .content .texts .malumot {
+    display: flex;
+    gap: 24px;
+  }
+  .content .texts .malumot .number,
+  .content .texts .malumot .address {
+    padding-bottom: 50px;
+  }
+  .content .texts .malumot .number p,
+  .content .texts .malumot .address p {
+    width: 160px;
+    display: flex;
+    flex-wrap: nowrap;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+  }
+  .content .inputs input {
+    width: 210%;
+  }
+  .content .inputs textarea {
+    width: 210%;
+  }
+  .content .inputs button {
+    width: 210%;
+  }
+}
 @media only screen and (max-width: 380px) {
   .content {
     display: block;

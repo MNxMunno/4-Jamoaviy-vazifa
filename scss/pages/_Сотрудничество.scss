@@ -103,6 +103,50 @@
   }
 }
 
+@media only screen and (max-width: 4300px) {
+  .content {
+    display: block;
+    .texts {
+      h1 {
+        width: 316px;
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 130%; /* 44.2px */
+        padding-bottom: 50px;
+      }
+      .malumot {
+        display: flex;
+        gap: 24px;
+        .number,
+        .address {
+          padding-bottom: 50px;
+          p {
+            width: 160px;
+            display: flex;
+            flex-wrap: nowrap;
+            color: #000;
+            font-family: Inter;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .inputs {
+      input {
+        width: 210%;
+      }
+      textarea {
+        width: 210%;
+      }
+      button {
+        width: 210%;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 380px) {
   .content {
     display: block;
