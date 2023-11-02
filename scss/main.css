@@ -217,6 +217,7 @@ header nav .nav_items .nav-btns svg {
 header nav #dark-light {
   cursor: pointer;
   border-radius: 44px;
+  overflow: hidden;
   /* Checked */
   /* Other States */
 }
