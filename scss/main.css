@@ -1077,6 +1077,7 @@ main {
   font-weight: 400;
   line-height: 140%; /* 28px */
   letter-spacing: 0.15px;
+  padding-bottom: 10px;
 }
 .frame button {
   margin-left: 72%;
@@ -1099,7 +1100,7 @@ main {
 }
 .frame .error {
   margin-top: 32px;
-  height: 48px;
+  padding: 13px 10px;
   background: #ff5959;
   display: flex;
   justify-content: center;
