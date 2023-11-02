@@ -468,9 +468,70 @@ header nav .nav-btn .logo-2 {
   right: 0;
   overflow: hidden;
 }
+@media only screen and (max-width: 420px) {
+  .hero {
+    padding-bottom: 0;
+    padding-top: 100px;
+  }
+  .hero .container {
+    padding: 0;
+  }
+  .hero .container .hero_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    background-color: transparent;
+    padding-bottom: 0;
+  }
+  .hero .container .hero_cards h1 {
+    font-size: 24px;
+  }
+  .hero .container .hero_cards .hero_card {
+    padding: 0;
+  }
+  .hero .container .hero_cards .hero_card img {
+    width: 100%;
+    position: relative;
+    height: 400px;
+    top: 4px;
+  }
+  .hero .container .hero_cards .card2 {
+    padding-left: 28px;
+    background: #fff;
+    padding-bottom: 48px;
+  }
+  .hero .container .hero_cards .card2 h1 {
+    color: #000;
+  }
+  .hero .container .hero_cards .card2 p {
+    color: #000;
+  }
+  .hero .container .hero_cards .card2 a {
+    color: #000;
+  }
+  .hero .container .hero_cards .card2 a svg {
+    fill: #000;
+  }
+}
 
-.services {
+main {
   background: #f2f3f7;
+}
+
+.services .services-content h2 {
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  /* H4 Headline */
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 47.6px */
+  letter-spacing: 0.25px;
+  padding-top: 62px;
 }
 .services .services-content .services_cards {
   padding-top: 24px;
@@ -484,23 +545,130 @@ header nav .nav-btn .logo-2 {
   width: 294px;
   border-radius: 12px;
   background: var(--Tecxt-white, #fff);
-  padding: 29px 0 27px;
+  padding: 29px 32px 27px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 45px;
 }
-.services .services-content .services_cards .services_card h2 {
+.services .services-content .services_cards .services_card h3 {
   color: var(--Black, #000);
   font-variant-numeric: lining-nums proportional-nums;
   /* Body 1 */
   font-family: Montserrat;
-  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%; /* 22.4px */
   letter-spacing: 0.44px;
+}
+@media only screen and (max-width: 425px) {
+  .services .services-content h2 {
+    padding-top: 40px;
+    font-size: 24px;
+  }
+  .services .services-content .services_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.product .product-content h3 {
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  /* H4 Headline */
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 47.6px */
+  letter-spacing: 0.25px;
+  padding-bottom: 32px;
+}
+.product .product-content .product_cards {
+  padding-bottom: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.product .product-content .product_cards .product_card {
+  width: 294px;
+  background: #fff;
+  border-radius: 12px;
+  padding-bottom: 8px;
+}
+.product .product-content .product_cards .product_card .pro_img {
+  width: 100%;
+}
+.product .product-content .product_cards .product_card h4 {
+  color: var(--Black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* BUTTON */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  padding: 7px 13px 8px;
+}
+.product .product-content .product_cards .product_card p {
+  padding: 0 13px;
+  width: 240px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.product .product-content .product_cards .product_card .imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 13px 12px;
+}
+.product .product-content .product_cards .product_card .imgs b {
+  color: var(--Black, #000);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* Overline */
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 14px */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0 13px;
+}
+.product .product-content .product_cards .product_card a {
+  width: 95%;
+  margin: auto;
+  border-radius: 6px;
+  background: var(--Gold, #ffc000);
+  padding: 8px 24px;
+  display: block;
+  color: var(--Black, #000);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  /* BUTTON */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.product .product-content .product_cards .product_card a:hover {
+  background-color: #d9a303;
+  color: #a1a1a1;
+}
+.product .product-content .product_cards .product_card a:active {
+  box-shadow: 3px 3px 5px rgba(217, 163, 3, 0.5);
 }
 
 .desktop-1_hero .desk-1__hero p {
