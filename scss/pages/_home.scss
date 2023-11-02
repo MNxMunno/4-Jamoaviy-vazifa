@@ -132,6 +132,7 @@
 
 main {
   background: #f2f3f7;
+  padding-bottom: 80px;
 }
 
 .services {
@@ -350,6 +351,155 @@ main {
       }
       h5 {
         display: block;
+      }
+    }
+  }
+}
+
+.imperia {
+  background: #fff;
+  .imperia_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+
+    .imperia_card {
+      h6 {
+        color: var(--Black, #0d0d0d);
+        font-variant-numeric: lining-nums proportional-nums;
+
+        /* H4 Headline */
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 47.6px */
+        letter-spacing: 0.25px;
+      }
+      p {
+        max-width: 558px;
+        color: #000;
+        font-variant-numeric: lining-nums proportional-nums;
+
+        /* Body 1 */
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
+        letter-spacing: 0.44px;
+        padding: 24px 0;
+      }
+      a {
+        border-radius: 6px;
+        background: var(--Gold, #ffc000);
+        color: var(--Black, #000);
+        text-align: center;
+        font-variant-numeric: lining-nums proportional-nums;
+
+        /* BUTTON */
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 19.6px */
+        letter-spacing: 0.75px;
+        text-transform: uppercase;
+        padding: 8px 24px;
+        transition: 0.4s;
+      }
+      a:hover {
+        background-color: #d9a303;
+        color: #a1a1a1;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    background-color: transparent;
+    padding-bottom: 40px;
+    .imperia_cards {
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+      padding-bottom: 24px;
+      .i-card-2 {
+        padding-left: 15px;
+        a {
+          text-align: center;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+.aksya {
+  background: var(--Yellow, #ffc000);
+  margin-top: 48px;
+  .aksya_content {
+    padding: 173px 0;
+    h6 {
+      max-width: 666px;
+      color: var(--Black, #0d0d0d);
+      text-align: center;
+      font-variant-numeric: lining-nums proportional-nums;
+      margin: auto;
+      /* H4 Headline */
+      font-family: Montserrat;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 47.6px */
+      letter-spacing: 0.25px;
+      b {
+        color: var(--Black, #0d0d0d);
+        font-variant-numeric: lining-nums proportional-nums;
+
+        /* H2 Headline */
+        font-family: Montserrat;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+      }
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .aksya_content {
+      padding: 0;
+      h6 {
+        color: var(--Black, #0d0d0d);
+        text-align: center;
+        font-variant-numeric: lining-nums proportional-nums;
+
+        /* Body Big */
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 28px */
+        letter-spacing: 0.15px;
+        padding: 56px 0;
+        b {
+          color: var(--Black, #0d0d0d);
+          text-align: center;
+          font-variant-numeric: lining-nums proportional-nums;
+
+          /* Body Big */
+          font-family: Montserrat;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%; /* 28px */
+          letter-spacing: 0.15px;
+        }
       }
     }
   }
