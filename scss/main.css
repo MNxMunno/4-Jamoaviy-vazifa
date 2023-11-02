@@ -674,6 +674,50 @@ main {
   box-shadow: 3px 3px 5px rgba(217, 163, 3, 0.5);
 }
 
+.categorie {
+  padding-bottom: 64px;
+}
+.categorie .categorie_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  min-height: 450px;
+}
+.categorie .categorie_cards .categorie_card {
+  width: 264px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.categorie .categorie_cards .categorie_card img {
+  width: 100%;
+}
+.categorie .categorie_cards .categorie_card h5 {
+  padding: 22px 32px;
+  background-color: #000;
+  color: var(--Yellow, #ffc000);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* H5 Headline */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+  display: none;
+  transition: 0.5s;
+}
+.categorie .categorie_cards .categorie_card:hover h5 {
+  display: block;
+}
+.categorie .categorie_cards .c_card-1 img {
+  height: 90%;
+}
+.categorie .categorie_cards .c_card-1 h5 {
+  display: block;
+}
+
 .desktop-1_hero .desk-1__hero p {
   padding-top: 150px;
   color: red;

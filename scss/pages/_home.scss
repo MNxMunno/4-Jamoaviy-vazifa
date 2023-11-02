@@ -305,3 +305,52 @@ main {
     }
   }
 }
+
+.categorie {
+  padding-bottom: 64px;
+  .categorie_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    min-height: 450px;
+    .categorie_card {
+      width: 264px;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: 0.5s;
+      img {
+        width: 100%;
+      }
+      h5 {
+        padding: 22px 32px;
+        background-color: #000;
+        color: var(--Yellow, #ffc000);
+        font-variant-numeric: lining-nums proportional-nums;
+
+        /* H5 Headline */
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 33.6px */
+        display: none;
+        transition: 0.5s;
+      }
+    }
+    .categorie_card:hover {
+      h5 {
+        display: block;
+      }
+    }
+    .c_card-1 {
+      img {
+        height: 90%;
+      }
+      h5 {
+        display: block;
+      }
+    }
+  }
+}
