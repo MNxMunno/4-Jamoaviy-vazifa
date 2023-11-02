@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap");
 footer {
@@ -613,6 +614,169 @@ header nav .nav-btn .logo-2 {
     height: 44px;
     background-color: #FFC000;
     font-size: 16px;
+  }
+}
+.yagona {
+  background-color: #fafafa;
+}
+
+.frame {
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+.frame h1 {
+  padding-bottom: 32px;
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 47.6px */
+  letter-spacing: 0.25px;
+}
+.frame .sale {
+  background-color: #fff;
+  padding-left: 400px;
+  margin-bottom: 28px;
+}
+.frame .sale .sale-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frame .sale .sale-title h2 {
+  padding-top: 24px;
+  color: #040921;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+}
+.frame .sale .sale-title svg {
+  margin-left: 524px;
+  padding-right: 12px;
+}
+.frame .sale .ball {
+  display: flex;
+  align-items: center;
+  padding-top: 48px;
+}
+.frame .sale .ball p {
+  padding-left: 8px;
+  padding-top: 8px;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.1px;
+}
+.frame .sale p {
+  max-width: 754px;
+  padding-top: 12px;
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.25px;
+}
+.frame .sale .past {
+  display: flex;
+  align-items: center;
+  padding-top: 44px;
+  padding-bottom: 28px;
+  gap: 60%;
+}
+.frame .sale .past .price {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.frame .sale .past .son {
+  width: 160px;
+  height: 37px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 37px solid #ffc000;
+  border-right: 37px solid #ffc000;
+}
+.frame .sale .past .son p {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  letter-spacing: 0.15px;
+}
+.frame button {
+  margin-left: 72%;
+  color: var(--Black, #0d0d0d);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  background: var(--Yellow, #ffc000);
+  padding: 18px 112px;
+  border: 2px solid #ffc000;
+}
+.frame button:hover {
+  background-color: transparent;
+  transition: 0.4s;
+}
+.frame .error {
+  margin-top: 32px;
+  height: 48px;
+  background: #ff5959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.frame .error p {
+  color: #fff;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.25px;
+}
+
+@media only screen and (max-width: 420px) {
+  .frame {
+    text-align: center;
+  }
+  .frame .sale {
+    text-align: center;
+    padding-left: 0;
+  }
+  .frame .sale .sale-title svg {
+    margin-left: 100px;
+  }
+  .frame .sale .past {
+    gap: 30px;
+  }
+  .frame button {
+    margin-left: 0%;
+    padding: 12px 100px;
   }
 }
 * {
@@ -1931,7 +2095,7 @@ svg {
   transition: 0.4s;
 }
 
-@media only screen and (max-width: 4300px) {
+@media only screen and (max-width: 430px) {
   .content {
     display: block;
   }
