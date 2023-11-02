@@ -1289,8 +1289,8 @@ main {
     gap: 48px;
   }
   .order-hero .o-left .pricing-area .payment-methods svg {
-    width: 206px;
-    height: 56px;
+    width: 180px;
+    height: 36px;
   }
   .order-hero .o-left .pricing-area .payment-methods svg:hover {
     cursor: pointer;
