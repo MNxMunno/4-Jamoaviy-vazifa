@@ -85,6 +85,8 @@ header {
     }
     #dark-light {
       cursor: pointer;
+      border-radius: 44px;
+      overflow: hidden;
       .l {
         display: block;
         margin-bottom: 1.5em;
@@ -215,7 +217,7 @@ header {
       flex-direction: column;
       gap: 25px;
       position: fixed;
-      top: 115px;
+      top: 86px;
       right: -100%;
       width: 100%;
       height: calc(80vh - 70px);
@@ -279,7 +281,7 @@ header {
       flex-direction: column;
       gap: 25px;
       position: fixed;
-      top: 115px;
+      top: 86px;
       right: 0%;
       width: 100%;
       height: calc(80vh - 50px);
