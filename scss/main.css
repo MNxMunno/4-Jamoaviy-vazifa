@@ -861,6 +861,16 @@ main {
   }
 }
 
+.desktop_hero .desk__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.desktop_hero .desk__cards .desk__card {
+  max-width: 460px;
+}
 .desktop_hero .desk__cards .desk__card h1 {
   color: #000;
   font-variant-numeric: lining-nums proportional-nums;
@@ -869,6 +879,38 @@ main {
   font-style: normal;
   font-weight: 900;
   line-height: 64px; /* 139.13% */
+}
+.desktop_hero .desk__cards .desk__card p {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  /* Subtitle 2 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.1px;
+  padding-bottom: 24px;
+}
+.desktop_hero .desk__cards .desk__card img {
+  width: 100%;
+}
+.desktop_hero .desk__cards .desk__card a {
+  border-radius: 6px;
+  background: var(--Yellow, #ffc000);
+  color: var(--Black, #0d0d0d);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 170% */
+  padding: 13px 12px;
+}
+@media only screen and (max-width: 420px) {
+  .desktop_hero .desk__cards .desk__card h1 {
+    font-size: 28px;
+  }
 }
 
 .desk-2 .desk-2-content .desk-2__cards .desk-2__card p {
